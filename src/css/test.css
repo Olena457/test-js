@@ -1,0 +1,20 @@
+/* styleName: Mobile/Main text; */
+.ac-header {
+  color: #fafafa;
+  font-family: Inter Tight;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.ac-text {
+  color: #fafafa99;
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
