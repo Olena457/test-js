@@ -1,20 +1,47 @@
 /* styleName: Mobile/Main text; */
+.faq {
+  color: rgba(250, 250, 250, 0.4);
+  font-family: 'Inter Tight';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5; /* 150% */
+  letter-spacing: -0.32px;
+  margin-bottom: 32px;
+  margin-right: auto;
+}
+.accordion-container {
+  width: calc(50% - 10px);
+  height: 332px;
+  float: left;
+  margin: 5px;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
 .ac-header {
   color: #fafafa;
-  font-family: Inter Tight;
+  font-family: 'Inter Tight';
   font-size: 20px;
+  font-style: normal;
   font-weight: 600;
-  line-height: 30px;
-  letter-spacing: -0.02em;
-  text-align: left;
+  line-height: 1.5; /* 150% */
+  letter-spacing: -0.4px;
+}
+.ac-trigger {
+  display: inline-flex;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  border: 1px solid rgba(250, 250, 250, 0.2);
 }
 
 .ac-text {
-  color: #fafafa99;
-  font-family: Inter Tight;
+  color: rgba(250, 250, 250, 0.6);
+  font-family: 'Inter Tight';
   font-size: 16px;
+  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: -0.02em;
-  text-align: left;
+  line-height: 1.5; /* 150% */
+  letter-spacing: -0.32px;
 }
