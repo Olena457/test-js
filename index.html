@@ -7,7 +7,9 @@
     <title>Test-js</title>
     
     <script type="module" crossorigin src="/test-js/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/test-js/assets/index-3c11eefa.css">
+    <link rel="modulepreload" crossorigin href="/test-js/assets/vendor-8f98089f.js">
+    <link rel="stylesheet" href="/test-js/assets/vendor-8255b786.css">
+    <link rel="stylesheet" href="/test-js/assets/index-55e0d400.css">
   </head>
   <body>
     <section id="FAQ">
@@ -15,14 +17,14 @@
       <ul class="accordion container">
         <!--1-->
 
-        <li class="ac-item hild-one">
-          <div class="question-cont question-one">
+        <li class="ac-item open hild-one">
+          <div class="question-cont">
             <h3 class="ac-question">
               What programming languages ​are most often used in your project?
             </h3>
 
             <button type="button" class="ac-trigger">
-              <svg class="icon-arrow" width="20" height="20">
+              <svg class="ac-arrow down" width="20" height="20">
                 <use href="#"></use>
               </svg>
             </button>
@@ -40,11 +42,12 @@
           </div>
         </li>
         <!-- 2 -->
-        <li class="ac-item hild-two">
-          <div class="question-cont question-two">
+        <li class="ac-item open hild-two">
+          <div class="question-cont">
             <h3 class="ac-question">What are the deadlines for the project?</h3>
+
             <button type="button" class="ac-trigger">
-              <svg class="icon-arrow" width="20" height="20">
+              <svg class="ac-arrow down" width="20" height="20">
                 <use href="#"></use>
               </svg>
             </button>
@@ -63,12 +66,12 @@
           </div>
         </li>
         <!--3-->
-        <li class="ac-item hild-three">
-          <div class="question-cont question-three">
+        <li class="ac-item open hild-three">
+          <div class="question-cont">
             <h3 class="ac-question">What payment methods do you accept?</h3>
 
             <button type="button" class="ac-trigger">
-              <svg class="icon-arrow" width="20" height="20">
+              <svg class="ac-arrow down" width="20" height="20">
                 <use href="#"></use>
               </svg>
             </button>
@@ -85,13 +88,28 @@
             </div>
           </div>
         </li>
-        <div class="divider-vertical"></div>
+        <svg
+          class="line-vertical"
+          xmlns="http://www.w3.org/2000/svg"
+          width="2"
+          height="584"
+          viewBox="0 0 2 584"
+          fill="none"
+        >
+          <path
+            d="M1 584L1 9.56655e-06"
+            stroke="#FAFAFA"
+            stroke-opacity="0.2"
+          />
+        </svg>
+        <!-- <div class="divider-vertical"></div> -->
         <!-- 4 -->
-        <li class="ac-item hild-four">
-          <div class="question-cont question-four">
+        <li class="ac-item open hild-four">
+          <div class="question-cont">
             <h3 class="ac-question">How can I contact you?</h3>
+
             <button type="button" class="ac-trigger">
-              <svg class="icon-arrow" width="20" height="20">
+              <svg class="ac-arrow down" width="20" height="20">
                 <use href="#"></use>
               </svg>
             </button>
@@ -108,11 +126,12 @@
           </div>
         </li>
         <!--5 -->
-        <li class="ac-item hild-five">
-          <div class="question-cont question-five">
+        <li class="ac-item open hild-five">
+          <div class="question-cont">
             <h3 class="ac-question">Do you provide advice or support?</h3>
+
             <button type="button" class="ac-trigger">
-              <svg class="icon-arrow" width="20" height="20">
+              <svg class="ac-arrow down" width="20" height="20">
                 <use href="#"></use>
               </svg>
             </button>
@@ -130,14 +149,14 @@
           </div>
         </li>
         <!--6 -->
-        <li class="ac-item hild-six">
-          <div class="question-cont question-six">
+        <li class="ac-item open hild-six">
+          <div class="question-cont">
             <h3 class="ac-question">
               What does the process of developing a software product look like
               from idea to implementation?
             </h3>
             <button type="button" class="ac-trigger">
-              <svg class="icon-arrow" width="20" height="20">
+              <svg class="ac-arrow down" width="20" height="20">
                 <use href="#"></use>
               </svg>
             </button>
